@@ -34,6 +34,6 @@ for i in range(7599):
   label = ag['test'][i]['label']
   example_ori.append((text,label))
 dataset = textattack.datasets.Dataset(example_ori)
-attack_args = textattack.AttackArgs(num_examples=1000, log_to_txt="ipso_ag.txt", log_to_csv='ipso_ag.csv', disable_stdout=True, shuffle = True, random_seed=42)
+attack_args = textattack.AttackArgs(num_examples=1000, log_to_txt="leap_ag.txt", log_to_csv='leap_ag.csv', disable_stdout=True, shuffle = True, random_seed=42)
 attacker = textattack.Attacker(attack, dataset, attack_args)
 attacker.attack_dataset()
