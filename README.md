@@ -5,8 +5,8 @@ This repository contains the implementations of the paper: LEAP: Efficient and A
 ## Datesets
 There are three datasets used in our experiments:
 
-- [IMDB](http://ai.stanford.edu/ amaas/data/sentiment/)
-- [AG's News](http://www.di.unipi.it/ gulli/AG corpus of news articles.html)
+- [IMDB](https://s3.amazonaws.com/fast-ai-nlp/imdb.tgz)
+- [AG's News](https://s3.amazonaws.com/fast-ai-nlp/ag_news_csv.tgz)
 - [Poem Sentiment](https://github.com/google-research-datasets/poem-sentiment)
 
 
