@@ -50,7 +50,7 @@ Follow these steps to run the attack from the library:
 Take a look at the `models` directory in [TextAttack](https://github.com/RishabhMaheshwary/TextAttack/tree/hard_label_attack) to run the attack across any dataset and any target model.
 
 
-
+## Experimental result of LEAP on the query times
 ![image](https://github.com/lumos-xiao/LEAP/blob/main/query-time.png)
 
 
