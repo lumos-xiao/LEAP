@@ -67,7 +67,7 @@ def get_one_levy(min, max):
     return temp
 
 
-class ParticleSwarmOptimization(PopulationBasedSearch):
+class LEAP(PopulationBasedSearch):
 
     def __init__(
             self, pop_size=60, max_iters=20, post_turn_check=True, max_turn_retries=20
