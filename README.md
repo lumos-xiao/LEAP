@@ -34,7 +34,20 @@ The code was tested with:
 - more-itertools
 - PySocks!=1.5.7,>=1.5.6
 
+## How to Run:
+Follow these steps to run the attack from the library:
 
+1. Fork this repository
+
+2. Run the following command to install it.
+
+   ```bash
+   $ cd TextAttack
+   $ pip install -e . ".[dev]"
+   
+3. Run notebook **leap_demo.ipynb** to test the fine-tuned "bert-base-uncased" model on the "AG's News" dataset
+
+Take a look at the `models` directory in [TextAttack](https://github.com/RishabhMaheshwary/TextAttack/tree/hard_label_attack) to run the attack across any dataset and any target model.
 
 
 
