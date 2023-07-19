@@ -40,3 +40,7 @@ The code was tested with:
 
 ![image](https://github.com/lumos-xiao/LEAP/blob/main/query-time.png)
 
+
+## Acknowledgement
+
+This code is based on the [TextAttack](https://github.com/QData/TextAttack) framework.
