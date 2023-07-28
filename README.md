@@ -66,7 +66,13 @@ Take a look at the `models` directory in [TextAttack](https://github.com/Rishabh
 
 ## Supplementary
 ### Experimental result of LEAP on the query times
+In RQ2 of Section V EXPERIMENT RESULTS AND ANALYSIS, we measure the efficiency of the test method based on the time overhead and the query times, and due to space constraints, we report the experimental results for the query times in the repository.
+
+
 ![image](https://github.com/lumos-xiao/LEAP/blob/main/query-time.png)
+
+Similar to the experiment on time overhead, the table presents the average query times per successful generation of a test case on the long-text datasets IMDB and AG's News. Compared to existing heuristic testing methods, LEAP demonstrates suboptimal performance in terms of query times. Although IGA has lower query times than LEAP, its time overhead is higher across all victim models, and its success rate in generating test cases is also lower than LEAP.
+
 
 
 ## License
