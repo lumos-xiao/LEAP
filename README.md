@@ -17,8 +17,14 @@ There are three datasets used in our experiments:
 - [AG's News](https://s3.amazonaws.com/fast-ai-nlp/ag_news_csv.tgz)
 - [Poem Sentiment](https://github.com/google-research-datasets/poem-sentiment)
 
+## Repo structure
+- `victim models.zip`: victim models obtained by training on three datasets
+- `leap.py`: search test cases based on PSO
+- `leap_2023.py`: Code to execute LEAP in the TextAttack framework
+- `leap_demo.ipynb`: An example of testing the fine-tuned "bert-base-uncased" model on the "AG's News" dataset
 
-## Requirements
+
+## Dependencies
 The code was tested with:
 
 - bert-score>=0.3.5
