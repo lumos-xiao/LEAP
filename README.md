@@ -19,8 +19,8 @@ There are three datasets used in our experiments:
 
 ## Repo structure
 - `victim models.zip`: victim models obtained by training on three datasets
-- `leap.py`: search test cases based on PSO
-- `leap_2023.py`: Code to execute LEAP in the TextAttack framework
+- `search_methods/leap.py`: search test cases based on PSO
+- `attack_recipes/leap_2023.py`: Code to execute LEAP in the TextAttack framework
 - `leap_demo.ipynb`: An example of testing the fine-tuned "bert-base-uncased" model on the "AG's News" dataset
 
 
@@ -56,7 +56,6 @@ Follow these steps to run the attack from the library:
 2. Run the following command to install it.
 
    ```bash
-   $ cd TextAttack
    $ pip install -e . ".[dev]"
    
 3. Run notebook **leap_demo.ipynb** to test the fine-tuned "bert-base-uncased" model on the "AG's News" dataset
