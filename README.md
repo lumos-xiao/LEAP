@@ -1,6 +1,14 @@
-# LEAP
+<h1 align="center">LEAP</h1>
 
-This repository contains the implementations of the paper: LEAP: Efficient and Automated Test Method for NLP Software.
+
+<p align="center">
+<b>
+An efficient and automated test method for NLP software.</b>
+
+<p align="center">
+Code release and supplementary materials for:</br>
+  <b>"Repairing Failure-inducing Inputs with Input Reflection"</b></br>
+</p>
 
 ## Datesets
 There are three datasets used in our experiments:
