@@ -7,7 +7,7 @@ An efficient and automated test method for NLP software.</b>
 
 <p align="center">
 Code release and supplementary materials for:</br>
-  <b>"Repairing Failure-inducing Inputs with Input Reflection"</b></br>
+  <b>"LEAP: Efficient and Automated Test Method for NLP Software"</b></br>
 </p>
 
 ## Datesets
