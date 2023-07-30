@@ -18,10 +18,17 @@ There are three datasets used in our experiments:
 - [Poem Sentiment](https://github.com/google-research-datasets/poem-sentiment)
 
 ## Repo structure
+- `datasets`: define the dataset object used for carrying out attacks
+- `goal_functions`: determine if the test method generates successful test cases
+- `search_methods`: explore the space of potential transformations and try to locate a successful perturbation
+- `transformations`: transform the input text, e.g. synonym replacement
+- `constraints`: determine whether or not a given transformation is valid
+
+The most important files in this project are as follows:
 - `victim models.zip`: victim models obtained by training on three datasets
 - `search_methods/leap.py`: search test cases based on PSO
-- `attack_recipes/leap_2023.py`: Code to execute LEAP in the TextAttack framework
-- `leap_demo.ipynb`: An example of testing the fine-tuned "bert-base-uncased" model on the "AG's News" dataset
+- `attack_recipes/leap_2023.py`: code to execute LEAP in the TextAttack framework
+- `leap_demo.ipynb`: an example of testing the fine-tuned "bert-base-uncased" model on the "AG's News" dataset
 
 
 ## Dependencies
